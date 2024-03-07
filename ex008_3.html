@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../873f4397afe8f.png.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css">
+    
+<script>
+    <audio id='pleilist' controls>
+        <source src='https://music.youtube.com/watch?v=vXZHHg823ro&si=RbXa_EVjbkeZEFrc' type='audio/mp3'>
+    </audio>
+</script>
+
+<script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+
+<script>
+const pleilist = new Plyr('#pleilist', {
+    controls: ['play', 'progress', 'current time', 'mute', 'volume']
+});
+</script>
+
+
+    <style>
+        .titulo{
+        text-shadow: 
+        2px 2px 0 #6E12ED,   /* Sombra para a direita e para baixo */
+       -2px -2px 0 #6E12ED,  /* Sombra para a esquerda e para cima */
+        2px -2px 0 #6E12ED,  /* Sombra para a direita e para cima */
+       -2px 2px 0 #6E12ED;
+        }
+        
+        .botao {
+            display: inline-block;
+            padding: 08px 16px;
+
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background-color: #3d1776;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 15px;
+            box-shadow: 0px 6px 12px rgb(12, 234, 234);
+            transition: background-color 0.5s, color 0.5s, border-color 0.5s, box-shadow 0.3s ease;
+               
+        }
+        
+        .botao:hover {
+            background-color: #f8f8f8f7;
+            border-color: black;
+            outline: 2px solid rgb(255, 255, 255);
+            color: black;
+            box-shadow: 0px 6px 12px rgb(255, 0, 230);
+            transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+            cursor: none; 
+        }       
+
+
+        @font-face {
+            font-family: JetBrainsMono;
+            src: url(../webfonts/JetBrainsMono-Regular.woff2);
+        }
+        mark {
+            background-color: rgb(112, 52, 169);
+        }
+        body {
+            cursor: crosshair;
+            background-color: rgb(19, 1, 43);
+            font-size: large;
+            font-family: JetBrainsMono;
+            color: aliceblue;
+            text-align: center;
+            
+         }
+    </style>
+    
+    
+
+    
+    
+    <title>Página 3</title>
+</head>
+<body>
+    <h1 class="titulo">Página 3</h1> 
+    <p><a href="../ex008_2.html" class="botao">Previous Page</a></p>
+    <p><a href="../ex008_1.html"  loorel="prev" target="_self" class="botao">First Page</a></p>
+</body>
+</html>
